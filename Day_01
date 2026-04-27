@@ -1,0 +1,65 @@
+1.Difference between QA and QC ?
+
+* QA (Quality Assurance) :
+     Quality Assurance (QA) is a proactive, process-oriented approach that aims to prevent defects by improving
+     development processes. 
+
+Approach : Proactive; focuses on preventing defects.
+Focus    : The process and system used tocreate the product.
+Goal     : To improve the development process and prevent future errors.
+Timeline : Occurs throughout the entire product lifecycle, before and during development.
+Responsibility : Involves the entire team.
+Activities : Process planning, setting standards,code reviews, and training.
+
+* QC (Quality Control) :
+   Quality Control (QC) is a reactive, product-oriented approach that aims to detect and correct defects.
+
+Approach : Reactive; focuses on finding and correcting defects
+Focus    : The final product itself.
+Goal     : To identify and fix defects in the current product. 
+Timeline : Primarily occurs at the end of the development cycle, during the testing phase.
+Responsibility : Usually performed by a dedicated quality control team or specific personnel.
+Activities : Inspections, testing, bug fixing, and user acceptance testing.
+
+2.Explain in detail about STLC ?
+
+1.Requirement Analysis:
+   Entry Criteria :  Requirements Specification,Application architectural,Along with above documents
+Acceptance criteria should be well defined. 
+   Activities : Prepare the list of questions or queries and get resolved from Business Analyst, System Architecture, Client, Technical
+Manager/Lead etc.Make out the list for what all Types of Tests performed like Functional, Security, and Performance etc.
+Deliverable : List of questions with all answers to be resolved from business.
+2.Test Planning:
+   Entry Criteria : Requirements Documents.Automation feasibility report.
+   Activities     : Define scope and objectives.Decide testing types and tools.Estimate effort and cost.Assign roles and responsibilities.
+                    Plan schedule and timelines.
+  Deliverable   : Test Plan or Test strategy document.Testing Effort.estimation document. 
+3.Test Case Development:
+  Entry Criteria  : Requirements Documents.Automation feasibility report.
+  Activities      : Preparation of test cases.Preparation of test automation scripts (if required).Re-requisite test data preparation for executing test cases.
+  Deliverable     : Test cases.Test data.Test Automation Scripts.
+4.Test Environment Setup:
+  Entry Criteria : Test Plan is available.Smoke Test cases are available.Test data is available.
+  Activities     : Analyze the requirements and prepare the list of Software & hardware required to set up test environment.
+                  Setup the test environment.Once the Test Environment is setup execute the Smoke test cases to check the readiness of the test environment.
+  Deliverable    : Test Environment will be ready with test data.Result of Smoke Test cases.
+
+5.Test Execution:
+  Entry Criteria : Test Plan or Test strategy document.Test cases.Test data.
+  Activities     : Based on test planning execute the test cases.Mark status of test cases like Passed, Failed, Blocked, Not Run etc.
+  Deliverable    : Test case execution report.Defect report.
+6.Test Cycle Closure: 
+  Entry Criteria : Test case execution is completed Test case Execution report Defect report.
+  Activities     : Evaluate cycle completion criteria based on Test coverage,Quality, Cost, Time, Critical Business Objectives, and
+                   Software Prepare test metrics based on the above parameters.Prepare Test closure report Share best practices for any
+                   similar projects in future.
+  Deliverable    : Test Closure report Test metrics.
+
+
+ 
+
+
+
+
+
+
