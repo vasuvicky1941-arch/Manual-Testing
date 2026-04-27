@@ -1,0 +1,40 @@
+Explain about Functional and Non-Functional Testing. In which scenario u would choose non functional testing?
+
+Functional Testing:
+
+Unit Testing:      Testing individual components or modules of the software in isolation to ensure they function
+                   correctly.
+Integration Testing:  Verifying the interactions and data flow between different modules or components of
+                      the software.
+System Testing:       Testing the entire integrated system to ensure it meets the specified requirements and
+                      performs as expected in a real-world environment.
+Acceptance Testing (UAT - User Acceptance Testing):     Validating whether the system meets the user's needs
+       and business requirements, typically performed by end-users or clients.
+
+Re-Testing:    Testing performed to ensure that defect raised by the tester is resolved properly. This testing
+               concentrates only on the defect fix. If the retesting fails, the tester changes the Defect status from “Fixed”
+               to “Reopen”.
+Regression Testing:    Re-running previously executed tests to ensure that new changes or bug fixes have not
+                       introduced new defects or negatively impacted existing functionalities.
+Smoke Testing:(Build Verification Testing):     A quick and preliminary test to verify the basic and critical
+            functionalities of a software build, ensuring it's stable enough for further testing.
+Sanity Testing:      A subset of regression testing, performed after minor changes to confirm that the changes
+            have not broken core functionalities.
+
+Non-Functional Testing :
+
+Performance Testing:      Evaluating the system's responsiveness, stability, scalability, and resource usage under
+         various load conditions.
+Load Testing:   Assessing the system's behavior under expected peak load conditions.
+Stress Testing:     Determining the system's breaking point by subjecting it to extreme loads.
+Scalability Testing:    Measuring the system's ability to handle an increasing number of users or data volume.
+Security Testing:      Identifying vulnerabilities and weaknesses in the system that could be exploited by
+       malicious actors.
+Usability Testing:     Evaluating the ease of use, learnability, and user-friendliness of the software from an enduser perspective.
+Compatibility Testing:     Ensuring the software functions correctly across different operating systems,
+              browsers, devices, and network configurations.
+Reliability Testing:       Assessing the system's ability to perform its intended functions without failure over a
+         specified period.
+Accessibility Testing:      Verifying that the software is usable by individuals with disabilities, adhering to
+accessibility standards.
+
