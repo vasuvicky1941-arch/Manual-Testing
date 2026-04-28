@@ -1,0 +1,18 @@
+Explain in detail about Static Testing:
+
+Static Testing is a software testing technique which is used to check defects in software application without
+executing the code. Static testing is done to avoid errors at an early stage of development as it is easier to
+identify the errors and solve the errors. It also helps finding errors that may not be found by Dynamic
+Testing.
+
+Manual examinations : Manual examinations include analysis of code done manually.
+Automated analysis using tools : Automated analysis are basically static analysis which is done using tools.
+
+Static Testing :
+   * informal Review
+   * Walkthroungt
+   * Technical Review
+   * Inspection
+   * Static Analysis
+        * Data Flow
+        * Control Flow
