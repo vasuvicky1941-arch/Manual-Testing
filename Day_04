@@ -1,0 +1,30 @@
+Explain about Requirements with example :
+ Requirement :
+   * Functional requirements
+   * Non-functional requirements
+   * Domain requirements.
+
+ * Functional requirements :
+
+    User Authentication  : The system must allow users to log in using a username and password.
+    Search Functionality : The software should enable users to search for products by name or category.
+    Report Generation    : The system should be able to generate sales reports for a specified date range.
+    Explanation          : Functional requirements specify the actions that the software needs to perform.
+
+ * Non-functional requirements:
+
+   Non-functional requirements describe how the software performs a task rather than what it should do.
+
+Performance   : The system should process 1,000 transactions per second.
+Usability     : The software should be easy to use and have a user-friendly interface.
+Reliability   : The system must have 99.9% uptime.
+Security      : Data must be encrypted during transmission and storage.
+Explanation   : Non-functional requirements are about the system’s behavior, quality, and constraints. 
+
+ * Domain requirements:
+ Definition:  Domain requirements are specific to the domain or industry in which the software operates.
+Examples:
+Healthcare : The software must comply with HIPAA regulations for handling patient data.
+Finance    : The system should adhere to GAAP standards for financial reporting.
+E-commerce : The software should support various payment gateways like PayPal, Stripe, and credit cards.
+Explanation: Domain requirements reflect the unique needs and constraints of a particular industry.
