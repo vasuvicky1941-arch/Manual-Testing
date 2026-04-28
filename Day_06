@@ -1,0 +1,51 @@
+1.Explain about Equivalence Partition and Boundary Value Analysis ?
+
+Equivalence Partition:
+
+ * Divide the input domain:
+       Identify the different sets of inputs based on the software's
+requirements. These sets are divided into partitions of equivalent data, which are often
+categorized as either valid or invalid.
+
+•Create test cases : 
+     Choose one representative value from each of these partitions to create a
+single test case. For example, if a system accepts numbers between 1 and 100, the partitions might
+be:
+
+•Valid: 1-100
+•Invalid: 0 or less
+•Invalid: Greater than 100
+Example: Age validation.
+
+Boundary Value Analysis :
+
+     Boundary value analysis is a software testing technique that focuses on testing the limits of input
+ranges, such as the minimum and maximum values, because errors are often found at these
+boundaries.
+Working:
+      Identify boundaries: For a given input range (e.g., age from 18 to 60), the minimum is 18 and the
+      maximum is 60.
+•Test values     : Create test cases using values aroun.
+d the boundaries:
+•Minimum boundary: Test the minimum value itself, one value below it, and one value above it
+                   (e.g., 17, 18, 19).
+•Maximum boundary: Test the maximum value itself, one value below it, and one value above it
+                   (e.g., 59, 60, 61).
+•Test valid and invalid inputs : Ensure the software handles both valid boundary conditions (like 18
+               and 60) and invalid boundary conditions (like 17 and 61) correctly.
+•Focus on edge cases :   By testing these extreme values, you can uncover errors that result from offby-one mistakes, such as using ">" instead of "≥" in a conditional statement.
+
+2.Explain about State Transition Technique ?
+
+     State transition testing is a black-box software testing technique that focuses on verifying the behavior of a
+system as it transitions between different states in response to specific events or inputs. This technique is
+particularly useful for systems where the output depends not only on the current input but also on the
+system's previous state.
+  Core Concepts:
+State :    A distinct condition or mode the system can be in at a given moment. For example, in a banking
+           application, states could include "Logged Out," "Logged In," "Funds Available," or "Account Locked."
+Event :    An input or action that triggers a change from one state to another. Examples include "entering
+            credentials," "making a deposit," or "exceeding login attempts."
+Transition: The movement of the system from one state to another, initiated by an event.
+Action    : The system's response or output that occurs during or after a state transition. This could be
+            displaying a success message, denying access, or performing a calculation.
