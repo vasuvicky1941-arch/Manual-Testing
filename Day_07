@@ -1,0 +1,33 @@
+1.Explain about WhiteBox Testing Techniques ?
+
+   White box testing is a software testing method that examines the internal structure, design, and code of an
+application to verify its logic and identify defects.
+
+Statement Coverage :
+        In this technique, the aim is to traverse all statements at least once. Hence, each
+line of code is tested. In the case of a flowchart, every node must be traversed at least once. Since all lines
+of code are covered, it helps in pointing out faulty code.
+Branch Coverage :
+        Branch coverage focuses on testing the decision points or conditional branches in the
+code. It checks whether both possible outcomes (true and false) of each conditional statement are tested.
+In this technique, test cases are designed so that each branch from all decision points is traversed at least
+once. In a flowchart, all edges must be traversed at least once
+Condition Coverage : 
+         In this technique, all individual conditions must be covered 
+ Multiple Condition Coverage :
+        In this technique, all the possible combinations of the possible outcomes
+of conditions are tested at least once
+Basis Path Testing :
+         In this technique, control flow graphs are made from code or flowchart and then
+Cyclomatic complexity is calculated which defines the number of independent paths so that the minimal
+number of test cases can be designed for each independent path
+Loop Testing : 
+        Loops are widely used and these are fundamental to many algorithms hence, their testing
+is very important. Errors often occur at the beginnings and ends of loops.
+Nested loops : 
+     For nested loops, all the loops are set to their minimum count, and we start from the
+innermost loop. Simple loop tests are conducted for the innermost loop and this is worked outwards till all
+the loops have been tested.
+Concatenated loops :  
+      Independent loops, one after another. Simple loop tests are applied for each. If they’re
+not independent, treat them like nesting.
