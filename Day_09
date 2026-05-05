@@ -1,0 +1,29 @@
+1.Explain about Different Test Metrics ?
+    Test metrics are quantifiable measurements used to evaluate, track, and improve the efficiency, quality, and
+performance of testing processes. They provide objective data for decision-making, help identify areas for
+improvement, and are used to report progress to stakeholders. Common examples include defect density,
+test coverage.
+Key aspects of test metrics :
+        Quantifiable data: Metrics turn aspects of the testing process into numerical data that can be analyzed and
+compared over time or against benchmarks.
+Purpose :  
+    Their primary goal is to assess the effectiveness of testing activities, track progress, measure the
+quality of the product, and guide decision-making.
+Scope :  
+    They are applicable across all stages of the Software Development Life Cycle (SDLC) to ensure a
+defect-free product.
+Reporting :
+    Metrics are used to provide clear, data-driven reports to stakeholders, from the technical team
+to executive management.
+
+
+2.Explain about Test Estimation ?
+   Test estimation is the process of predicting the time, effort, and resources needed for software testing
+activities. It is a crucial project management activity that helps in planning schedules, budgeting, and
+allocating resources effectively. Effective estimation involves breaking down tasks, considering factors like
+project complexity and staff skills, and continuously refining estimates throughout the project lifecycle.
+What test estimation includes :
+Effort : The total hours (or other units like story points) required for testing tasks.
+Time   : The duration for completing testing, broken down into working days or calendar time, considering
+         deadlines.
+Cost   : The budget needed for testing, which includes costs for resources, tools, and infrastructure. 
