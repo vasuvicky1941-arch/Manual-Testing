@@ -1,0 +1,40 @@
+What is Experience-based testing :
+
+              Experience-based testing techniques leverage the knowledge, intuition, and past
+experiences of testers, developers, and other stakeholders to identify potential defects in
+software. These techniques are particularly useful when formal specifications are limited
+or absent, or when time constraints necessitate a more agile approach.
+
+Here are some key experience-based testing techniques:
+• Error Guessing:
+           This technique relies on the tester's intuition and experience to predict where defects might
+occur in the software. Testers use their knowledge of common programming errors, past
+system failures, and typical user behavior to anticipate potential problem areas.
+• Exploratory Testing:
+           In exploratory testing, the tester simultaneously learns about the software, designs test
+cases, and executes them. This unscripted approach allows for flexibility and adaptability,
+as the tester can follow their instincts and explore areas of the application that seem most
+promising for uncovering defects.
+• Checklist-based Testing:
+          This technique involves using pre-defined checklists, often derived from past projects or
+industry best practices, to guide the testing process. The checklists serve as a reminder of
+common test scenarios, potential vulnerabilities, and areas to focus on during testing.
+Attack Testing:
+          Attack testing, also known as negative testing or security testing, involves deliberately
+attempting to break the system by providing invalid inputs, exploiting vulnerabilities, or
+attempting unauthorized actions. This technique relies heavily on the tester's
+understanding of security principles and common attack vectors.
+
+Characteristics of Experience-Based Testing:
+ • Reliance on Human Expertise:
+           These techniques are driven by the individual skills, knowledge, and experience of the
+           testers.
+• Flexibility and Adaptability:
+           They are less structured than formal testing methods, allowing for on-the-fly adjustments
+           and exploration.
+• Effectiveness in Specific Contexts:
+           Particularly valuable in situations with incomplete documentation, tight deadlines, or for
+           low-risk systems.
+ Potential for Varying Coverage:
+           The effectiveness and coverage achieved can vary significantly depending on the tester's
+           experience and skill level.
